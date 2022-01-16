@@ -6,7 +6,6 @@ public class BlueRayPlayer implements Player, HDRPlayer{
         System.out.println("Play BlueRay " + movie );
     }
 
-
     @Override
     public boolean canPlayHdr() {
         return true;
